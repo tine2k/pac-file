@@ -6,6 +6,7 @@ function FindProxyForURL(url, host) {
 			|| shExpMatch(host, "*.sap.wst")
 			|| shExpMatch(host, "*.viennainsurancegroup.com")
 			|| shExpMatch(host, "*.vig.com")
+	    		|| shExpMatch(host, "*.vig.at")
 		) {
 		return "PROXY proxy:808";
 	}
